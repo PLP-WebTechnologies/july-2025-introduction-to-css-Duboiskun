@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#table">Table</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#form">Form</a></li>
+        </ul>
+    </nav>
+    <section id="table">
+        <h1>GALAXY TECH</h1>
+        <table>
+            <tr>
+                <th>item</th>
+                <th>price</th>
+            </tr>
+            <tr>
+                <td>Samsung</td>
+                <td>40000</td>
+            </tr>
+            <tr>
+                <td>Huawei</td>
+                <td>41000</td>
+            </tr>
+            <tr>
+                <td>iPhone</td>
+                <td>10000</td>
+            </tr>
+        </table>
+    </section>
+    <section id="media">
+        <h2>Gallery</h2>
+        <div>
+            <img src="./pexels-ameer-umar-325092707-27348965.jpg" alt="Demure" width="300">    
+        </div>
+        <div>
+            <video src="./WhatsApp Video 2025-08-08 at 19.33.53_db88283b.mp4" width="300" controls></video>
+        </div>
+        <div><audio src="./WhatsApp Audio 2025-08-10 at 17.41.57_9f4b4b6c.mp3" controls></audio></div>
+    </section>
+    <section id="form">
+        <h2>Contact us</h2>
+        <form action="Submit ">
+            <label for="name">name:</label> <br>
+            <input type="text" name="name" id="name" required> <br><br>
+            <label for="email">email:</label> <br>
+            <input type="email" name="email" id="email" required> <br><br>
+            <label for="subject"  >subject:</label> <br>
+            <input type="text" name="subject" id="subject" value="general inquiry" readonly> <br><br>
+            <label for="message">message:</label> <br>
+            <textarea name="message" id="message" rows="4" required></textarea> <br><br>
+            <button type="submit">Send message</button>
+        </form>
+    </section>
+</body>
+</html>
